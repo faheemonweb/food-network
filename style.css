@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    
 }
 h1{
     font-size: 50px;
@@ -61,6 +62,9 @@ h2{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
+    box-shadow: 10px 10px  40px gray;
+    border-radius: 30PX;
+
 }
 .recipies{
     width: 80%;
@@ -71,11 +75,12 @@ h2{
 
 .course-col{
     flex-basis: 31%;
-    border-radius: 10px;
+    border-radius: 30px;
     padding: 10px 12px;
-    margin-bottom: 5%;
+    margin-bottom: 0;
     box-sizing: border-box;
     border-style: solid gray;
+    box-shadow: 10px 10px  40px gray;
     
 }
 
@@ -89,6 +94,7 @@ h2{
     margin-right: auto;
     width: 70%;
     border-radius: 30px;
+    box-shadow: 10px 10px  40px gray;
   }
   h3{
     text-align: center;
@@ -114,6 +120,7 @@ h2{
     justify-content: space-between;
     box-sizing: border-box;
     border-radius: 2%;
+    box-shadow: 10px 10px  40px gray;
 }
 
 .london:hover{
